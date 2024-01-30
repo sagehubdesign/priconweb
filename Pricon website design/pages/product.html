@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricon</title>
+    <link rel="shortcut icon" href="../images/pricon logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="../Css/style.css">
+    <style>
+        .container
+        {
+            width: 100%;
+            height: 480px;
+            overflow: hidden;
+            box-shadow: 5px 5px 10px rgb(0, 0, 0);
+            margin: 20px auto;
+            box-sizing: border-box;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+           }
+    </style>
+</head>
+<body>
+    
+    <nav>
+        <img src="../images/pricon logo.png" alt="" class="logo" onclick="document.location.href='../index.html'">
+        <ul class="nav-link">
+            <li><a href="product.html" class="active-link">products</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="contact.html">contact</a></li>
+        </ul>
+    </nav>
+    
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+    <div id="imgSlider">
+        <img src="../images/1.png" alt="404 Error">
+    </div>
+
+</div>
+<script>
+    var imagePath = ["../images/3.jpg","../images/1.png","../images/2.png","../images/4.png","../images/5.png",];
+    var img = document.getElementById("imgSlider")
+    var index = 0;
+    setInterval(slider,1000)
+    function slider()
+    { 
+        if(index<imagePath.length){
+            index = index + 1;
+
+        }else{
+            index = 1;
+        }
+        
+        img.innerHTML = "<img src ="+imagePath[index -1]+">";
+    }
+    
+    
+</script>
+<br>
+<br>
+<br>
+<br>
+
+
+
+    
+<div class="team-profile">
+            <div class="team-card">
+                <div class="pic-box">
+                    <img src="../images/printer1.png" alt="" class="team-img">
+                </div>
+                <div class="team-info">
+                    <h2 class="member-name">Canon 540</h2>
+                    <h4>Rs.40,000</h4>
+                    <p class="tag">other details</p>
+                    <p class="tiny-para">   
+                        Scanner Type:
+                        Flat bed with color CIS line sensor
+                        <br>
+                        Optical Resolution:
+                        600 dpi x 1200 dpi
+                        <br>
+                        Color Bit Depth:
+                        Color: input 48 bits, output 24 bits; Greyscale: input 16 bits, output 8 bits; Black & white: input 16 bits, output 1 bit
+                        <br>
+                        Monochrome Bit Depth:
+                        input 16 bits, output 1 bit
+                        <br>
+                        Grayscale Bit Depth:
+                        input 16 bits, output 8 bits
+                        <br>
+                        Scan Bed Size:
+                        21.6 cm x 29.7 cm</p>
+                </div>
+            </div>
+            <div class="team-card">
+                <div class="pic-box">
+                    <img src="../images/printer2.png" alt="" class="team-img">
+                </div>
+                <div class="team-info">
+                    <h2 class="member-name">Canon 403</h2>
+                    <h4>Rs.45,000</h4>
+                    <p class="tag">Other details</p>
+                    <p class="tiny-para">Scanner Type:
+                        Flat bed with color CIS line sensor
+                        <br>
+                        Optical Resolution:
+                        600 dpi x 1200 dpi
+                        <br>
+                        Color Bit Depth:
+                        Color: input 48 bits, output 24 bits; Greyscale: input 16 bits, output 8 bits; Black & white: input 16 bits, output 1 bit
+                        <br>
+                        Monochrome Bit Depth:
+                        input 16 bits, output 1 bit
+                        <br>
+                        Grayscale Bit Depth:
+                        input 16 bits, output 8 bits
+                        <br>
+                        Scan Bed Size:
+                        21.6 cm x 29.7 cm</p>
+                </div>
+            </div>
+            <div class="team-card">
+                <div class="pic-box">
+                    <img src="../images/printer3.png" alt="" class="team-img">
+                </div>
+                <div class="team-info">
+                    <h2 class="member-name">epsion 102</h2>
+                    <p class="tag">others details</p>
+                    <p class="tiny-para">Scanner Type:
+                        Flat bed with color CIS line sensor
+                        <br>
+                        Optical Resolution:
+                        600 dpi x 1200 dpi
+                        <br>
+                        Color Bit Depth:
+                        Color: input 48 bits, output 24 bits; Greyscale: input 16 bits, output 8 bits; Black & white: input 16 bits, output 1 bit
+                        <br>
+                        Monochrome Bit Depth:
+                        input 16 bits, output 1 bit
+                        <br>
+                        Grayscale Bit Depth:
+                        input 16 bits, output 8 bits
+                        <br>
+                        Scan Bed Size:
+                        21.6 cm x 29.7 cm</p>
+                </div>
+            </div>
+            
+            <div class="team-card">
+                <div class="pic-box">
+                    <img src="../images/printer3.png" alt="" class="team-img">
+                </div>
+                <div class="team-info">
+                    <h2 class="member-name">epsion 102</h2>
+                    <p class="tag">others details</p>
+                    <p class="tiny-para">Scanner Type:
+                        Flat bed with color CIS line sensor
+                        <br>
+                        Optical Resolution:
+                        600 dpi x 1200 dpi
+                        <br>
+                        Color Bit Depth:
+                        Color: input 48 bits, output 24 bits; Greyscale: input 16 bits, output 8 bits; Black & white: input 16 bits, output 1 bit
+                        <br>
+                        Monochrome Bit Depth:
+                        input 16 bits, output 1 bit
+                        <br>
+                        Grayscale Bit Depth:
+                        input 16 bits, output 8 bits
+                        <br>
+                        Scan Bed Size:
+                        21.6 cm x 29.7 cm</p>
+                </div>
+            </div>
+            <div class="team-card">
+                <div class="pic-box">
+                    <img src="../images/printer3.png" alt="" class="team-img">
+                </div>
+                <div class="team-info">
+                    <h2 class="member-name">epsion 102</h2>
+                    <p class="tag">others details</p>
+                    <p class="tiny-para">Scanner Type:
+                        Flat bed with color CIS line sensor
+                        <br>
+                        Optical Resolution:
+                        600 dpi x 1200 dpi
+                        <br>
+                        Color Bit Depth:
+                        Color: input 48 bits, output 24 bits; Greyscale: input 16 bits, output 8 bits; Black & white: input 16 bits, output 1 bit
+                        <br>
+                        Monochrome Bit Depth:
+                        input 16 bits, output 1 bit
+                        <br>
+                        Grayscale Bit Depth:
+                        input 16 bits, output 8 bits
+                        <br>
+                        Scan Bed Size:
+                        21.6 cm x 29.7 cm</p>
+                </div>
+            </div>
+            <div class="team-card">
+                <div class="pic-box">
+                    <img src="../images/printer3.png" alt="" class="team-img">
+                </div>
+                <div class="team-info">
+                    <h2 class="member-name">epsion 102</h2>
+                    <p class="tag">others details</p>
+                    <p class="tiny-para">Scanner Type:
+                        Flat bed with color CIS line sensor
+                        <br>
+                        Optical Resolution:
+                        600 dpi x 1200 dpi
+                        <br>
+                        Color Bit Depth:
+                        Color: input 48 bits, output 24 bits; Greyscale: input 16 bits, output 8 bits; Black & white: input 16 bits, output 1 bit
+                        <br>
+                        Monochrome Bit Depth:
+                        input 16 bits, output 1 bit
+                        <br>
+                        Grayscale Bit Depth:
+                        input 16 bits, output 8 bits
+                        <br>
+                        Scan Bed Size:
+                        21.6 cm x 29.7 cm</p>
+                </div>
+            </div>
+            <div class="team-card">
+                <div class="pic-box">
+                    <img src="../images/printer3.png" alt="" class="team-img">
+                </div>
+                <div class="team-info">
+                    <h2 class="member-name">epsion 102</h2>
+                    <p class="tag">others details</p>
+                    <p class="tiny-para">Scanner Type:
+                        Flat bed with color CIS line sensor
+                        <br>
+                        Optical Resolution:
+                        600 dpi x 1200 dpi
+                        <br>
+                        Color Bit Depth:
+                        Color: input 48 bits, output 24 bits; Greyscale: input 16 bits, output 8 bits; Black & white: input 16 bits, output 1 bit
+                        <br>
+                        Monochrome Bit Depth:
+                        input 16 bits, output 1 bit
+                        <br>
+                        Grayscale Bit Depth:
+                        input 16 bits, output 8 bits
+                        <br>
+                        Scan Bed Size:
+                        21.6 cm x 29.7 cm</p>
+                </div>
+            </div>
+            <div class="team-card">
+                <div class="pic-box">
+                    <img src="../images/printer3.png" alt="" class="team-img">
+                </div>
+                <div class="team-info">
+                    <h2 class="member-name">epsion 102</h2>
+                    <p class="tag">others details</p>
+                    <p class="tiny-para">Scanner Type:
+                        Flat bed with color CIS line sensor
+                        <br>
+                        Optical Resolution:
+                        600 dpi x 1200 dpi
+                        <br>
+                        Color Bit Depth:
+                        Color: input 48 bits, output 24 bits; Greyscale: input 16 bits, output 8 bits; Black & white: input 16 bits, output 1 bit
+                        <br>
+                        Monochrome Bit Depth:
+                        input 16 bits, output 1 bit
+                        <br>
+                        Grayscale Bit Depth:
+                        input 16 bits, output 8 bits
+                        <br>
+                        Scan Bed Size:
+                        21.6 cm x 29.7 cm</p>
+                </div>
+            </div>
+            <div class="team-card">
+                <div class="pic-box">
+                    <img src="../images/printer3.png" alt="" class="team-img">
+                </div>
+                <div class="team-info">
+                    <h2 class="member-name">epsion 102</h2>
+                    <p class="tag">others details</p>
+                    <p class="tiny-para">Scanner Type:
+                        Flat bed with color CIS line sensor
+                        <br>
+                        Optical Resolution:
+                        600 dpi x 1200 dpi
+                        <br>
+                        Color Bit Depth:
+                        Color: input 48 bits, output 24 bits; Greyscale: input 16 bits, output 8 bits; Black & white: input 16 bits, output 1 bit
+                        <br>
+                        Monochrome Bit Depth:
+                        input 16 bits, output 1 bit
+                        <br>
+                        Grayscale Bit Depth:
+                        input 16 bits, output 8 bits
+                        <br>
+                        Scan Bed Size:
+                        21.6 cm x 29.7 cm</p>
+                </div>
+            </div>
+            
+            
+
+   
+    
+    <footer>
+        <img src="../images/pricon white logo.png" alt="" class="footer-logo">
+        <p class="copyright">Copyright © <script>document.write(new Date().getFullYear())</script> pricon. All rights reserved.</p>
+        <ul class="footer-link">
+            
+            <li><a href="" target="_blank">facebook</a></li>
+            <li><a href="" target="_blank">instagram</a></li>
+            <li><a href="" target="_blank">twitter</a></li>
+            <li><a href="" target="_blank">discord</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

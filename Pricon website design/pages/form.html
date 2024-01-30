@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>feedback</title>
+    <link rel="stylesheet" href="../Css/style.css">
+</head>
+<body class="form-body">
+    <form onsubmit="return validateForm()" class="form-style"> 
+        <label for="name">Name:</label><br> 
+        <input type="text" id="name" name="name"><br> 
+        <label for="email">Email:</label><br> 
+        <input type="text" id="email" name="email"><br> 
+        <label for="feedback">Feedback:</label><br> 
+        <textarea id="feedback" name="feedback"></textarea><br><br> 
+        <input type="submit" value="Submit" class="submit-style"> 
+      </form>  
+       
+      <script> 
+        function validateForm() { 
+          // Get the values of the form elements 
+          var name = document.getElementById("name").value; 
+          var email = document.getElementById("email").value; 
+          var feedback = document.getElementById("feedback").value; 
+       
+          // Validate the form values 
+          if (name == "") { 
+            alert("Name is required"); 
+            return false; 
+          } 
+          if (email == "") { 
+            alert("Email is required"); 
+            return false; 
+          } 
+          if (feedback == "") { 
+            alert("Feedback is required"); 
+            return false; 
+          } 
+       
+          // If the form is valid, submit the form and return true 
+          return true; 
+        } 
+      </script> 
+</body>
+</html>
